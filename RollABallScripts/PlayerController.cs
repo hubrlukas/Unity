@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     private float movementX; 
     private float movementY;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
